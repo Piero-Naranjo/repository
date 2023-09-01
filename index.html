@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felices 2 meses mi niña</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: #ffcccb; /* Color de fondo suave */
+            font-family: 'Arial', sans-serif;
+            color: #333; /* Color de texto oscuro */
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            border-radius: 20px;
+            background: #ff6b6b; /* Fondo rojo */
+            color: white; /* Texto blanco */
+            padding: 15px 30px; /* Espaciado interno */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        }
+
+        .content {
+            text-align: center;
+            margin: 0 auto;
+            max-width: 600px;
+            padding: 20px;
+            background: white; /* Fondo blanco para el contenido */
+            border-radius: 10px; /* Bordes curvos */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+        }
+
+        .content p {
+            font-size: 18px;
+            line-height: 1.6; /* Espaciado entre líneas para facilitar la lectura */
+            color: #555; /* Texto gris oscuro */
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .pulse-button {
+            background-color: #ff6b6b;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(255, 107, 107, 0.7);
+            }
+            70% {
+                transform: scale(1.2);
+                box-shadow: 0 0 0 10px rgba(255, 107, 107, 0);
+            }
+            100% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(255, 107, 107, 0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Felices 2 meses mi niña</h1>
+    </div>
+    <div class="content">
+        <p>“Eres la razón por la que me despierto cada mañana con una sonrisa en el rostro y la última persona en la que pienso antes de dormir. Gracias por ser mi sol en los días grises y mi compañera en los días felices”.</p>
+    </div>
+    <div class="button-container">
+        <button class="pulse-button" onclick="redirigir()">Presiona aquí</button>
+    </div>
+
+    <script>
+        function redirigir() {
+            window.location.href = "cr.html";
+        }
+    </script>
+</body>
+</html>
